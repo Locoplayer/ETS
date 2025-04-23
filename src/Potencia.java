@@ -15,7 +15,7 @@ public class Potencia {
     public static int Potencia (Scanner teclado, String mensaje) {
         int base;
         int potencia;
-        int res=0;
+        int res;
         String mens;
 
         System.out.println(mensaje);
