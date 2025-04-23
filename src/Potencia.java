@@ -1,7 +1,14 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Programa que solicita un numero y una potencia, para resolverlo y mostrar el resultado
+ */
 public class Potencia {
+    /**
+     * Metodo principal
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int res;
@@ -13,6 +20,12 @@ public class Potencia {
         texto (mens);
     }
 
+    /**
+     * Metodo que solicita los numeros, resuelve y devuelve el resultado
+     * @param teclado
+     * @param mensaje
+     * @return
+     */
     public static int Potencia (Scanner teclado, String mensaje) {
         int base;
         int potencia;
@@ -38,6 +51,12 @@ public class Potencia {
         return res;
     }
 
+    /**
+     * Metodo para controlar que el usuario solo introduzca numeros
+     * @param teclado
+     * @param mensaje
+     * @return
+     */
     public static int leerEntero(Scanner teclado, String mensaje) {
         int num=0;
 
@@ -53,6 +72,10 @@ public class Potencia {
         return num;
     }
 
+    /**
+     * metodoo para imprimir
+     * @param mensaje
+     */
     public static void texto (String mensaje) {
         System.out.println(mensaje);
     }
