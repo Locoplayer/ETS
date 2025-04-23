@@ -12,6 +12,7 @@ public class Potencia {
         mens ="El resultado de la operación es: "+res;
         texto (mens);
     }
+
     public static int Potencia (Scanner teclado, String mensaje) {
         int base;
         int potencia;
